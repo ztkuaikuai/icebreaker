@@ -13,6 +13,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        gradient: 'gradientAnimation 15s ease infinite',
+      },
     },
   },
   plugins: [
