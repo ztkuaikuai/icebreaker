@@ -7,8 +7,12 @@ const IceBreakerCard = () => {
 
     return (
         <div className="w-screen p-4 flex justify-center">
-            <div className="card glass shadow-2xl min-h-36 max-h-64 w-full lg:w-2/3">
-                <div className="card-body flex flex-col justify-between text-white text-xl p-0 m-6 overflow-auto lg:text-2xl ">
+            <div 
+                className="card glass shadow-2xl min-h-36 max-h-64 w-full lg:w-2/3 
+                transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-3xl 
+                hover:-rotate-[0.5deg] hover:cursor-pointer"
+            >
+                <div className="card-body flex flex-col justify-between text-white text-xl p-0 m-6 overflow-auto lg:text-2xl">
                     <h2>{data}</h2>
                     <div className="card-actions justify-end">
                         <button
