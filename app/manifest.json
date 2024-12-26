@@ -1,0 +1,21 @@
+{
+  "name": "破冰",
+  "short_name": "破冰",
+  "description": "陌生人破冰",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/icebreaker_icon_192px.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icebreaker_icon_512px.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 
